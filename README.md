@@ -29,7 +29,7 @@ Reference:
 
 Edit csproj to build symbol package. The symbol package has extension with snupkg and it contains the symbol file (.pdb). So we could reduce the size of nupkg package which contains dll only. And source code is not embed into .pdb file, it's fetch from source control like Github or Azure Repos
 
-![csproj file]([Demo/Update csproj.png at main · bourne-xian/Demo (github.com)](https://github.com/bourne-xian/Demo/blob/main/Img/Update csproj.png))
+![csproj file](https://github.com/bourne-xian/Demo/blob/main/Img/Update%20csproj.png)
 
 Publish the nuget to MyGet (it will upload the snupkg to symbol feed if it's in the same directory)  Another option is publish to Azure Artifacts.
 
