@@ -33,8 +33,13 @@ Edit csproj to build symbol package. The symbol package has extension with snupk
 
 Publish the nuget to MyGet (it will upload the snupkg to symbol feed if it's in the same directory)  Another option is publish to Azure Artifacts.
 
-Then we could debug just like we did for 3rd library.
+Then we could debug just like we did for 3rd library. 
 
+From Modules, we could right click on pdb file & click the symbol loaded info.
+![Check symbol loaded](https://github.com/bourne-xian/Demo/blob/main/Img/SymbolDownloadFromServer.png)
+
+Press F11 step into will see the source code download from souce server(in this case Github):
+![Step into release dll](https://github.com/bourne-xian/Demo/blob/main/Img/SourceCodeDownloadedFromServer.png)
 
 
 Reference:
